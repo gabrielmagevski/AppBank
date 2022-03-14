@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ServiceWash",
-    "slug": "ServiceWash",
+    "name": "Bank",
+    "slug": "Bank",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

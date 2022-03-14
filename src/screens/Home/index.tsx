@@ -7,6 +7,7 @@ import CartBank from '../../assets/bank.png';
 import { styles } from './styles';
 import { Informations } from '../../components/Informations';
 import { ListHistory } from '../../components/ListHistory';
+import { ModalComponent } from '../../components/Modal';
 
 export function Home() {
   return( 
@@ -19,7 +20,10 @@ export function Home() {
         <Informations />
       </View>
       <View>
-        <ListHistory />
+        {/* <ListHistory />  */}
+      </View>
+      <View>
+        <ModalComponent />
       </View>
     </View>
   )

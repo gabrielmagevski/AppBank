@@ -13,7 +13,6 @@ export function ListHistory() {
     {id: '4', title: 'Zara Shopping', value: '-R$327.00', name: 'Online' },
     {id: '5', title: 'Zara Shopping', value: '-R$327.00', name: 'Online' },
     {id: '6', title: 'Zara Shopping', value: '-R$327.00', name: 'Online' },
-
   ]
   
   return(

@@ -5,7 +5,8 @@ import {
   useFonts,
   Lato_300Light,
   Lato_400Regular,
-  Lato_700Bold
+  Lato_700Bold,
+  
 } from '@expo-google-fonts/lato';
 import AppLoading from 'expo-app-loading';
 
