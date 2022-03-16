@@ -18,7 +18,6 @@ export function Header() {
   }
 
   function handleOpenModal(){
-
     setModalVisible(!isModalVisible)
   }
 
@@ -30,17 +29,19 @@ export function Header() {
         <Text style={styles.headerTitle}>My Cards</Text>
       </View>
 
+    <View style={styles.headerImage}>
       <TouchableOpacity onPress={handleOpenModal}>
         <Avatar urlImage={'https://github.com/gabrielmagevski.png'} style={styles.image}/>
 
         <ModalComponent isModalVisible={isModalVisible}>
           <ContentModal />
           <TouchableOpacity style={styles.button} onPress={handleOpenModal}>
-            <Text>Fechar Modal</Text>
+            <Text style={styles.textButton}>Fechar Modal</Text>
           </TouchableOpacity>
         </ModalComponent>
         
       </TouchableOpacity>
+    </View>
       
     </View>
   )

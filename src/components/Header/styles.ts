@@ -27,6 +27,9 @@ export const styles = StyleSheet.create({
     fontFamily: theme.fonts.text700B,
     fontSize: 18,
   },
+  headerImage: {
+    marginTop: -60
+  },
   button: {
     color: theme.colors.white,
     backgroundColor: theme.colors.secondaryBlueBackground,
@@ -35,5 +38,12 @@ export const styles = StyleSheet.create({
     fontSize: 20,
     borderRadius: 5,
     marginTop: 100,
+    padding: 15
   },
+  textButton:{
+    color: theme.colors.white,
+    fontSize: 15,
+    fontFamily: theme.fonts.text700B,
+    textAlign: 'center',
+  }
 })

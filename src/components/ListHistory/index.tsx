@@ -1,5 +1,5 @@
 import React from 'react';
-import { FlatList, View, Text, ScrollView } from 'react-native';
+import { FlatList, View, Text } from 'react-native';
 
 import { styles } from './styles';
 
@@ -18,7 +18,7 @@ export function ListHistory() {
   return(
     <View style={styles.backgroundfull}>
       <View style={styles.container}>
-        <Text style={styles.primarytitle}>Today</Text>
+      <Text style={styles.primarytitle}>Today</Text>
       
         <FlatList 
           data={extracts} 
@@ -26,8 +26,6 @@ export function ListHistory() {
             <View
             key={item.id}
             >
-            <View>
-            </View>
               <View style={styles.content}>
                 <View style={styles.icon}>
                   <FontAwesome name="shopping-cart" size={24} color="green" />
@@ -46,6 +44,5 @@ export function ListHistory() {
         />
       </View>
     </View>
-  )
-
+  );
 }
