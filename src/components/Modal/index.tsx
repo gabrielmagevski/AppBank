@@ -21,6 +21,8 @@ export function ModalComponent({ isModalVisible, children }: PropsModal) {
        animationIn="slideInUp"
        animationOutTiming={1200}  
        animationInTiming={600}
+       backdropTransitionInTiming={600}
+       backdropTransitionOutTiming={1200}
       >
       { children }
       </Modal>

@@ -48,7 +48,7 @@ export const styles = StyleSheet.create({
   },
   space: {
     marginLeft: 130,
-    flexDirection: 'row'
+    flexDirection: 'row',
   },
   icon: {
     paddingRight: 10,
