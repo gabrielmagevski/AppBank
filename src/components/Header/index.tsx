@@ -36,7 +36,7 @@ export function Header() {
         <ModalComponent isModalVisible={isModalVisible}>
           <ContentModal />
           <TouchableOpacity style={styles.button} onPress={handleOpenModal}>
-            <Text style={styles.textButton}>Fechar Modal</Text>
+            <Text style={styles.textButton}>Fechar</Text>
           </TouchableOpacity>
         </ModalComponent>
         
